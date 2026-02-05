@@ -1,0 +1,20 @@
+[tool.poetry]
+name        = "issues_fs_service"
+version     = "v0.1.1"
+description = "Issues-FS Service - FastAPI server with REST endpoints"
+authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
+license     = "Apache 2.0"
+readme      = "README.md"
+homepage    = "https://github.com/owasp-sbot/Issues-FS__Service"
+repository  = "https://github.com/owasp-sbot/Issues-FS__Service"
+
+[tool.poetry.dependencies]
+python                   = "^3.12"
+osbot-utils              = "*"
+osbot-fast-api           = "*"
+issues-fs                = "*"
+issues-fs-service-client-python = "*"
+
+[build-system]
+requires = ["poetry-core>=1.9.1"]
+build-backend = "poetry.core.masonry.api"
