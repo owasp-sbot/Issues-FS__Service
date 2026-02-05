@@ -1,8 +1,13 @@
-osbot-utils
-osbot-fast-api
+osbot-fast-api-serverless
+memory_fs
 issues-fs
 issues-fs-service-client-python
 
 # for testing
 pytest
 pytest-cov
+
+# for fastapi testing
+httpx
+requests
+

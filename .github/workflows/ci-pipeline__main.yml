@@ -11,6 +11,7 @@ jobs:
     with:
       git_branch          : 'main'
       release_type        : 'major'
+      target_deploy       : 'qa'
       should_increment_tag: true
-      should_publish_pypi : true
+      should_publish_pypi : false
     secrets: inherit
