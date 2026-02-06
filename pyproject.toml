@@ -15,6 +15,7 @@ osbot-fast-api                  = "*"
 osbot-fast-api-serverless       = "*"
 issues-fs                       = "*"
 issues-fs-service-client-python = "*"
+issues-fs-cli                   = "*"
 
 [build-system]
 requires = ["poetry-core>=1.9.1"]
